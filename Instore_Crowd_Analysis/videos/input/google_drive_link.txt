@@ -1,0 +1,9 @@
+https://drive.google.com/file/d/1QQ_VcV3hsuMnzCYyQ0lZ9xdzEJMaMtC9/view?usp=sharing
+
+
+The input video I used is around 30MB in size wheresas the maximum size limit of a file that can be uploaded in a github repository is 25MB.
+I couldn't directly upload the video inside the input folder. 
+Instead I uploaded the input video in google drive and you can access it through the link given above.
+For code execution, download the video, then paste it here inside the input folder. Also, delete this google_drive_link.txt file.
+Folder structure should be like,
+Instore_Crowd_Analysis > videos > input > crowd.mp4
