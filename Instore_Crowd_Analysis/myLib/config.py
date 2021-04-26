@@ -17,7 +17,7 @@ MIN_DISTANCE = 70
 
 
 #Email alert
-MAIL = 'whitefalconsmq@gmail.com'
+MAIL = ''       #Enter the mail id on which u wan't to receive the alert, inside the single quotes
 ALERT = True
 Threshold = 17
 
