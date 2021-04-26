@@ -8,7 +8,7 @@ class Mailer:
         # Eg: "email@gmail.com"
         self.EMAIL = ""
         
-        # Enter the email password below. Note that the corresponding mail id tou entered must be a 2 step verified account.
+        # Enter the email password below. Note that the corresponding mail id you entered above must be a 2 step verified google account.
         # Only then you could generate the corresponding 16 character app key password which you.
         # Paste your generated 16 character password below.
         # Eg: "cjudtykamnxdqiow"
