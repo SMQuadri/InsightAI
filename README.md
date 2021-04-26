@@ -92,7 +92,7 @@
 
 ----
 
-# (2) Crowd Analysis:
+# (2) Instore Crowd Analysis:
 
 > ### Environment used:
 * Anaconda
@@ -102,21 +102,33 @@
 * numpy
 * pandas
 * scipy
-* imutils
 * datetime
 * schedule
 * opencv-python
-* dlib (You need to install cmake globally prior to dlib installation)
 * jupyter notebook
 * ipykernel
 
 > ### Implementation steps:
 * Virtual environment setup in anaconda
 * Obtaining input video (prerecorded video or webcam)
-* Image preprocessing and blob inferencing
-* Training the MobileNetSSD neural network
+* Frame differencing and image preprocessing
+* Training the YOLO neural network
 * Construction of centroid tracking algorithm
 * Creating a trackable object
-* Implementation of people counter
+* Implementation of social distance detection algorithm
 * Writing output frames to a video file on disk
-* Implementing people's log file, mail alert, timer and scheduler setup and max threshold functionalities
+* Implementing mail alert, timer and scheduler setup and max threshold functionalities
+
+> ## Output of Crowd Analysis module:
+
+> * ### Basic run-time anaconda terminal:
+> ![C_terminal](https://user-images.githubusercontent.com/55687431/116143684-1091f300-a6f9-11eb-90f8-d7def372af74.JPG)
+> Note: Arguements can be manipulated in Main.py as per your convinience
+
+> * ### Config file:
+> ![C_config](https://user-images.githubusercontent.com/55687431/116144954-471c3d80-a6fa-11eb-9f84-a303d4cb1d09.JPG)
+> 
+> Note: The config values can be manipulated manually as per your requirements.
+
+> * ### Mailer functionality:
+> This functionality can be enabled by specifying the mail id on which you wan't to receive the mail in the config file, setting up the maximum threshold and specifying ALERT=True
