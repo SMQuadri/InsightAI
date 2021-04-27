@@ -150,4 +150,6 @@ This software module monitors the crowd inside the store. The admin can specify 
 ----
 
 ## System Architecture of the software:
-> ![sysArc](https://user-images.githubusercontent.com/55687431/116218425-225eaf00-a768-11eb-8f0d-a09ff347cd35.JPG)
+![sysArc](https://user-images.githubusercontent.com/55687431/116218425-225eaf00-a768-11eb-8f0d-a09ff347cd35.JPG)
+
+----
