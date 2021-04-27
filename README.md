@@ -2,13 +2,13 @@
 
 > ___Video Analysis___ is the process of automatically analyzing the video using algorithms constructed by training them over deep neural networks to monitor, analyze, manage and detect specific events from large volumes of videos.
 
-> ___Video Analytics in retail stores___ help the retailer to grab useful insights in realtime so that they can enhance customers' shopping experience.
+> ___Video Analytics in retail stores___ helps the retailers to grab useful insights in realtime so that they can enhance customers' shopping experience.
 > 
 > ![va](https://user-images.githubusercontent.com/55687431/116121850-ab310880-a6de-11eb-9439-6dc4a79cfcc9.jpg)
 
 ----
 
-## Project Modules :
+## Software Modules :
 * ___Store Entry/Exit Analysis___
 * ___Instore Crowd Analysis___
 
@@ -57,7 +57,7 @@ This software module monitors and analyzes the store's entrance/exit point. It c
 > ## Output of Entry/Exit Analysis module:
 
 > * ### Basic run-time anaconda terminal:
-> Specify the --input arguement leading to the corresponding path of the prerecorded input video (or) if you wan't to enable webcam specify url=0 in the config file.
+> Specify the __--input__ arguement leading to the corresponding path of the prerecorded input video (or) if you wan't to enable webcam specify url=0 in the config file.
 > ![EE_terminal](https://user-images.githubusercontent.com/55687431/116130450-dfa9c200-a6e8-11eb-8536-c882f061d043.JPG)
 > ___Note:___ Arguements can be manipulated in Main.py as per your convinience
 
@@ -114,7 +114,7 @@ This software module monitors the crowd inside the store. The admin can specify 
 * Virtual environment setup in anaconda
 * Obtaining input video (prerecorded video or webcam)
 * Frame differencing and image preprocessing
-* Training the YOLO neural network
+* Training the YOLO neural network (___Note:___ You need to download YOLO weight file and paste it into the __model__ folder inside __Instore_Crowd_Analysis__. Its file size is around 250MB and hence I couldn't upload it in the repository. You can dowload the weight file from the given or any other preferred link. https://pjreddie.com/media/files/yolov3.weights_ )
 * Construction of centroid tracking algorithm
 * Creating a trackable object
 * Implementation of social distance detection algorithm
