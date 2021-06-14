@@ -2,6 +2,15 @@
   <img width="33%" src="https://github.com/SMQuadri/Realtime-Video-Analytics-in-Retail-stores/blob/main/InsightAI.JPG" />
 </p>
 
+![python_V](https://user-images.githubusercontent.com/55687431/121926367-86aaf180-cd5b-11eb-87cb-1bcad3da1682.JPG)
+![numpy_v](https://user-images.githubusercontent.com/55687431/121926528-b0641880-cd5b-11eb-9059-1dbef241fc05.JPG)
+![open_v](https://user-images.githubusercontent.com/55687431/121926600-beb23480-cd5b-11eb-8210-2bd3dcc55046.JPG)
+![imutils_v](https://user-images.githubusercontent.com/55687431/121926655-cb368d00-cd5b-11eb-8f3f-3bf37ca5eb0e.JPG)
+![schedule_v](https://user-images.githubusercontent.com/55687431/121926686-d7224f00-cd5b-11eb-938f-0407a370b23b.JPG)
+![date_v](https://user-images.githubusercontent.com/55687431/121926716-e1444d80-cd5b-11eb-8805-5d39c9db8978.JPG)
+![dlib_v](https://user-images.githubusercontent.com/55687431/121926753-eacdb580-cd5b-11eb-8391-9a7f4e441318.JPG)
+![scipy_v](https://user-images.githubusercontent.com/55687431/121926795-f5884a80-cd5b-11eb-8f56-3e1c154e7f81.JPG)
+
 ## Software Modules :
 * ___Store Entry/Exit Analysis___
 * ___Instore Crowd Analysis___
