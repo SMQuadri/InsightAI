@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-  <img width="33%" src="https://github.com/SMQuadri/Realtime-Video-Analytics-in-Retail-stores/blob/main/InsightAI.JPG" />
+  <img src="https://github.com/SMQuadri/Realtime-Video-Analytics-in-Retail-stores/blob/main/InsightAI.JPG" />
 </p>
 
 ___InsightAI is an artificial intelligence powered software which helps the retailers to grab useful insights and monitor them in real-time so as to enhance customers' shopping experience. During this ongoing pandemic crisis, the retailers need to be more concerned about the maximum limit of people in the store or a specific area and also maintain social distancing between them as per the safety norms. The retailer can monitor this in real-time as InsightAI has built-in automated algorithms which monitors the people count inside the store and also checks social distancing between people inside the store. The retailer can also specify the maximum threshold for this, which on getting exceeding would automatically initiate an alert email to him/her in real-time. Apart from this, InsightAI has various other features like, an excel sheet gets created at the end of each session which can be used for footfall analysis, automatic enabling of timer and session scheduler etc.___ 
