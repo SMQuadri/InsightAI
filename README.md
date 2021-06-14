@@ -2,6 +2,8 @@
   <img width="33%" src="https://github.com/SMQuadri/Realtime-Video-Analytics-in-Retail-stores/blob/main/InsightAI.JPG" />
 </p>
 
+___InsightAI is an artificial intelligence powered software which helps the retailers to grab useful insights and monitor them in real-time so as to enhance customers' shopping experience. During this ongoing pandemic crisis, the retailers need to be more concerned about the maximum limit of people in the store or a specific area and also maintain social distancing between them as per the safety norms. The retailer can monitor this in real-time as InsightAI has built-in automated algorithms which monitors the people count inside the store and also checks social distancing between people inside the store. The retailer can also specify the maximum threshold for this, which on getting exceeding would automatically initiate an alert email to him/her in real-time. Apart from this, InsightAI has various other features like, an excel sheet gets created at the end of each session which can be used for footfall analysis, automatic enabling of timer and session scheduler etc.___ 
+
 ![python_V](https://user-images.githubusercontent.com/55687431/121926367-86aaf180-cd5b-11eb-87cb-1bcad3da1682.JPG)
 ![anaconda_v](https://user-images.githubusercontent.com/55687431/121928295-a17e6580-cd5d-11eb-985b-3859aebd641d.JPG)
 ![conda_v](https://user-images.githubusercontent.com/55687431/121928367-b1964500-cd5d-11eb-8242-c4146d58efbe.JPG)
@@ -13,6 +15,8 @@
 ![date_v](https://user-images.githubusercontent.com/55687431/121926716-e1444d80-cd5b-11eb-8805-5d39c9db8978.JPG)
 ![dlib_v](https://user-images.githubusercontent.com/55687431/121926753-eacdb580-cd5b-11eb-8391-9a7f4e441318.JPG)
 ![scipy_v](https://user-images.githubusercontent.com/55687431/121926795-f5884a80-cd5b-11eb-8f56-3e1c154e7f81.JPG)
+
+
 
 ## InsightAI software modules :
 * ___Store Entry/Exit Analysis___
@@ -53,7 +57,7 @@ InsightAI monitors and analyzes the store's entrance/exit point. It counts the n
 > ### Features:
 * InsightAI is capable of running over both input videos as well as in realtime through webcam or ip-cameras, giving a higher FPS throughput rate than even yolo and r-cnns
 * The software user (or) the store administrator can even enable mailer functionality. Doing this, they will receive an email alert if the number of people present in the store exceeds the specified threshold.
-* I have also provided a functionality, which on enabling results in the automatic creation of a log file (excel sheet/csv file) at the end of the session, which would be helpful for footfalall analysis.
+* I have also provided a functionality, which on enabling results in the automatic creation of a log file (excel sheet/csv file) at the end of the session, which would be helpful for footfall analysis.
 * The user can also setup the timer upto which the video runs and then stops automatically.
 * Keypresses are also captured and are handled correspondingly.
 * Video summarization text is displayed on the window.
