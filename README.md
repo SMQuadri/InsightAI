@@ -1,12 +1,6 @@
-# Realtime-Video-Analytics-in-Retail-stores
-
-> ___Video Analysis___ is the process of automatically analyzing the video using algorithms constructed by training them over deep neural networks to monitor, analyze, manage and detect specific events from large volumes of videos.
-
-> ___Video Analytics in retail stores___ helps the retailers to grab useful insights in realtime so that they can enhance customers' shopping experience.
-> 
-> ![va](https://user-images.githubusercontent.com/55687431/116121850-ab310880-a6de-11eb-9439-6dc4a79cfcc9.jpg)
-
-----
+<p align="center" width="100%">
+  <img width="33%" src="https://github.com/SMQuadri/Realtime-Video-Analytics-in-Retail-stores/blob/main/InsightAI.JPG" />
+</p>
 
 ## Software Modules :
 * ___Store Entry/Exit Analysis___
