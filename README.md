@@ -14,7 +14,7 @@
 ![dlib_v](https://user-images.githubusercontent.com/55687431/121926753-eacdb580-cd5b-11eb-8391-9a7f4e441318.JPG)
 ![scipy_v](https://user-images.githubusercontent.com/55687431/121926795-f5884a80-cd5b-11eb-8f56-3e1c154e7f81.JPG)
 
-## Software Modules :
+## InsightAI software modules :
 * ___Store Entry/Exit Analysis___
 * ___Instore Crowd Analysis___
 
