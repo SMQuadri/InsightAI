@@ -3,6 +3,9 @@
 </p>
 
 ![python_V](https://user-images.githubusercontent.com/55687431/121926367-86aaf180-cd5b-11eb-87cb-1bcad3da1682.JPG)
+![anaconda_v](https://user-images.githubusercontent.com/55687431/121928295-a17e6580-cd5d-11eb-985b-3859aebd641d.JPG)
+![conda_v](https://user-images.githubusercontent.com/55687431/121928367-b1964500-cd5d-11eb-8242-c4146d58efbe.JPG)
+
 ![numpy_v](https://user-images.githubusercontent.com/55687431/121926528-b0641880-cd5b-11eb-9059-1dbef241fc05.JPG)
 ![open_v](https://user-images.githubusercontent.com/55687431/121926600-beb23480-cd5b-11eb-8210-2bd3dcc55046.JPG)
 ![imutils_v](https://user-images.githubusercontent.com/55687431/121926655-cb368d00-cd5b-11eb-8f3f-3bf37ca5eb0e.JPG)
@@ -18,7 +21,7 @@
 ----
 
 # (1) Store Entry/Exit Analysis :
-This software module monitors and analyzes the store's entrance/exit point. It counts the number of people entering and leaving the building and the total number of people present in the building at any instance and provides realtime analysis in the form of a GUI. It also sends an email alert if the number of people present in the building at that moment exceeds a given threshold. An excel sheet also gets created at the end of the session which contains some quite useful data that can be used by the administrator for footfall analysis. The administrator can also setup the timer (session's max time limit) and scheduler (automatically starts the session at the scheduled date and time). Output video gets generated and stored permanently on local disk and can be viewed by the admin anytime.
+InsightAI monitors and analyzes the store's entrance/exit point. It counts the number of people entering and leaving the building and the total number of people present in the building at any instance and provides realtime analysis in the form of a GUI. It also sends an email alert if the number of people present in the building at that moment exceeds a given threshold. An excel sheet also gets created at the end of the session which contains some quite useful data that can be used by the administrator for footfall analysis. The administrator can also setup the timer (session's max time limit) and scheduler (automatically starts the session at the scheduled date and time). Output video gets generated and stored permanently on local disk and can be viewed by the admin anytime.
 
 > ### Environment used:
 * Anaconda
@@ -48,7 +51,7 @@ This software module monitors and analyzes the store's entrance/exit point. It c
 * Implementing people's log file, mail alert, timer and scheduler setup and max threshold functionalities
 
 > ### Features:
-* This model is capable of running over both input videos as well as in realtime through webcam or ip-cameras, giving a higher FPS throughput rate than even yolo and r-cnns
+* InsightAI is capable of running over both input videos as well as in realtime through webcam or ip-cameras, giving a higher FPS throughput rate than even yolo and r-cnns
 * The software user (or) the store administrator can even enable mailer functionality. Doing this, they will receive an email alert if the number of people present in the store exceeds the specified threshold.
 * I have also provided a functionality, which on enabling results in the automatic creation of a log file (excel sheet/csv file) at the end of the session, which would be helpful for footfalall analysis.
 * The user can also setup the timer upto which the video runs and then stops automatically.
@@ -60,7 +63,7 @@ This software module monitors and analyzes the store's entrance/exit point. It c
 > ## Output of Entry/Exit Analysis module:
 
 > * ### Basic run-time anaconda terminal:
-> Specify the __--input__ arguement leading to the corresponding path of the prerecorded input video (or) if you wan't to enable webcam specify url=0 in the config file.
+> Specify the __--input__ arguement leading to the corresponding path of the prerecorded input video (or) if you want to enable webcam specify url=0 in the config file.
 > ![EE_terminal](https://user-images.githubusercontent.com/55687431/116130450-dfa9c200-a6e8-11eb-8536-c882f061d043.JPG)
 > ___Note:___ Arguements can be manipulated in Main.py as per your convinience
 
@@ -97,7 +100,7 @@ This software module monitors and analyzes the store's entrance/exit point. It c
 ----
 
 # (2) Instore Crowd Analysis:
-This software module monitors the crowd inside the store. The admin can specify the ROI limit which indicates the area needed to be monitored for analysis. It detects the movement of people inside those the store, calculates the distances between them, analyzes the people violating social distancing and provides the reults in the form of a GUI to the adminstrator in realtime. The admin also gets an email alert if the total number of people violating social distancing exceeds a given threshold. As in Store Entry/Exit analysis module the admin can set the timer & scheduler and can also access the output video anytime later from the local storage.
+InsightAI monitors the crowd inside the store. The admin can specify the ROI limit which indicates the area needed to be monitored for analysis. It detects the movement of people inside those the store, calculates the distances between them, analyzes the people violating social distancing and provides the reults in the form of a GUI to the adminstrator in realtime. The admin also gets an email alert if the total number of people violating social distancing exceeds a given threshold. As in Store Entry/Exit analysis module the admin can set the timer & scheduler and can also access the output video anytime later from the local storage.
 
 > ### Environment used:
 * Anaconda
@@ -136,7 +139,7 @@ This software module monitors the crowd inside the store. The admin can specify 
 > Note: The config values can be manipulated manually as per your requirements.
 
 > * ### Mailer functionality:
-> This functionality can be enabled by specifying the mail id on which you wan't to receive the mail in the config file, setting up the maximum threshold and specifying ___ALERT=True___
+> This functionality can be enabled by specifying the mail id on which you want to receive the mail in the config file, setting up the maximum threshold and specifying ___ALERT=True___
 > ![C_alert](https://user-images.githubusercontent.com/55687431/116212923-f55bcd80-a762-11eb-9c60-2f44c501af69.JPG)
 
 > * ### GPU available:
@@ -152,7 +155,56 @@ This software module monitors the crowd inside the store. The admin can specify 
 
 ----
 
-## System Architecture of the software:
+## System Architecture of InsightAI:
 ![sysArc](https://user-images.githubusercontent.com/55687431/116218425-225eaf00-a768-11eb-8f0d-a09ff347cd35.JPG)
+
+----
+
+> ## User Manual to run InsightAI on your system:
+
+
+> * ### Installing the tools:
+>   * #### Anaconda Navigator:
+>   Install anaconda navigator from its official website.
+>   * #### Python:
+>   Install python 3.6 version from its official website.
+>   
+> * ### Setting up a virtual environment:
+>   * #### Create an environment in your anaconda prompt using the command;
+>     $ conda create -n env_name python=3.6
+>   * #### Activate the environment with;
+>     $ activate env_name
+>   * #### Install all the necessary packages and dependencies:
+>     $ pip install package_name
+>   
+> * ### Download the software files from my repository 
+> 
+> * ### Launch The Jupyter notebook
+>   Launch the Jupyter notebook from your project’s working directory. For this navigate to your folder's location from the anaconda prompt by:
+>   
+>   $ cd path_name
+>   
+>   $ jupyter notebook
+>   
+>  * ### Setting the Mailer functionality:
+>    Specify the email through which you want to send the alert mail in ___Mailer.py___ file. Make sure that the specified mail id is a 2 step verified account. Now, you need to generate a 16 character app password and paste it in ___Mailer.py___ file. To generate the app password, refer to the guidelines present in the following link;
+>    
+>    https://support.google.com/accounts/answer/185833
+>    
+>  * ### The Config File:
+>    The config.py file can be altered by the admin as per his requirements. This file can be found in the mylib folder. The admin can easily specify the values for url (0 by default for webcam, or specify the url of the ip camera connected to it, or pass a pre-recorded video during runtime), mail id, alert, threshold, scheduler, log, and timer.
+>  
+>  * ### Running InsightAI:
+>    After successfully setting up InsightAI, it can be executed from the anaconda prompt(you need to be present in the same environment and path);
+>     * #### Store Exit/Entry Analysis:
+>     
+>       $ cd Store_Entry_Exit_Analysis
+>       
+>       $ python Main.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/input/example1.mp4 --output videos/output/ovideo.avi
+>     * #### In-store Crowd Analysis:
+>     
+>       $ cd Instore_Crowd_Analysis
+>       
+>       $ python Main.py --input videos/input/crowd.mp4 --output videos/output/ouvid.avi --display 1
 
 ----
