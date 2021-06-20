@@ -16,7 +16,11 @@ ___InsightAI is an artificial intelligence powered software which helps the reta
 ![dlib_v](https://user-images.githubusercontent.com/55687431/121926753-eacdb580-cd5b-11eb-8391-9a7f4e441318.JPG)
 ![scipy_v](https://user-images.githubusercontent.com/55687431/121926795-f5884a80-cd5b-11eb-8f56-3e1c154e7f81.JPG)
 
+----
 
+Check out InsightAI's product landing page here: https://insightai-10.web.app/
+
+----
 
 ## InsightAI software modules :
 * ___Store Entry/Exit Analysis___
